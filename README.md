@@ -1,4 +1,4 @@
-CRUD simples feito com PDO e Bootstrap :slightly_smiling_face:
+Isso é apenas um CRUD simples feito com PDO e Bootstrap :slightly_smiling_face:
 
 Para rodar localmente é necessário utilizar os comandos
 ```bash
