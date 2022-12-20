@@ -12,7 +12,6 @@
   },
   "require": {
     "phpmailer/phpmailer": "^6.7",
-    "ext-pdo": "*",
     "vlucas/phpdotenv": "^5.5"
   }
 }
