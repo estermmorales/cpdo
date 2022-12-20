@@ -16,11 +16,10 @@ $validate = validate([
 ]);
 
 $signIn = create('users', $validate);
-dd($signIn);
 
-//if ($signIn) {
-//    flash('message', 'Registration successfully completed!', 'success');
-//    return redirect('create_user');
-//}
-//flash('message', 'Something went wrong! Registration failed');
-//return redirect('create_user');
+if ($signIn) {
+    flash('message', 'Registration successfully completed!', 'success');
+    return redirect('create_user');
+}
+flash('message', 'Something went wrong! Registration failed');
+return redirect('create_user');
