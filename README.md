@@ -1,11 +1,11 @@
-Isso é apenas um CRUD simples feito com PDO e Bootstrap :slightly_smiling_face:
+This is just a simple CRUD made with PDO and Bootstrap :slightly_smiling_face:
 
-Para rodar localmente é necessário utilizar os comandos
+To run locally, you need to use the following commands
 ```bash
 $ composer install
 $ composer dump-autoload -o
 ```
-E alterar o arquivo de `.env.example` para `.env` e configurar as variáveis de ambiente para conexão ao banco de dados
+And change the .env.example file to .env and configure the environment variables for database connection:
 ```shell
 HOST={host_name}
 DBNAME={database_name}
